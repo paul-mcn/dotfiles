@@ -7,4 +7,5 @@ chsh -s $(which zsh)
 ~/.dotfiles/.oh-my-zsh/tools/install.sh
 
 # Create a symbolic link to your custom directory within the Oh My Zsh directory
-ln -s ~/.dotfiles/custom ~/.dotfiles/.oh-my-zsh/custom
+ln -s ~/.dotfiles/custom/zsh-aliases.zsh ~/.dotfiles/.oh-my-zsh/custom/aliases.zsh
+ln -sn ~/.dotfiles/custom/themes/powerlevel10k ~/.dotfiles/.oh-my-zsh/custom/themes/powerlevel10k
