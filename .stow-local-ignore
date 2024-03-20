@@ -22,5 +22,5 @@ _darcs
 ^/LICENSE.*
 ^/COPYING
 
-\install.sh
-\custom
+^/install.sh
+^/custom
