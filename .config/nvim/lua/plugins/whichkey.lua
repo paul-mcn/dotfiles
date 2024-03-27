@@ -3,11 +3,6 @@ return {
 	config = function()
 		local wk = require("which-key")
 		wk.register({
-			["gD"] = { vim.lsp.buf.declaration, "Go to declaration" },
-			["gd"] = { vim.lsp.buf.definition, "Go to definition" },
-			["[d"] = { vim.diagnostic.goto_prev, "Next diagnostic" },
-			["]d"] = { vim.diagnostic.goto_next, "Prev diagnostic" },
-			["K"] = { vim.lsp.buf.hover, "Displays information on symbol under cursor" },
 			["<C-h>"] = { "<cmd>TmuxNavigateLeft<cr>", "Navigate Left" },
 			["<C-j>"] = { "<cmd>TmuxNavigateDown<cr>", "Navigate Down" },
 			["<C-k>"] = { "<cmd>TmuxNavigateUp<cr>", "Navigate Up" },
@@ -44,8 +39,6 @@ return {
 					})
 				end, "Little Fix" },
 			},
-			h = { vim.lsp.buf.signature_help, "Signature help" },
-			rn = { vim.lsp.buf.rename, "Rename variable", name = "Rename" },
 			C = { "<cmd>:e ~/.config/nvim/init.lua<cr>", "Edit Nvim Config" },
 			ca = { vim.lsp.buf.code_action, "Code Action", name = "Code Action", mode = { "n", "v" } },
 			ft = {
