@@ -26,8 +26,6 @@ require("lazy").setup({
 		'Exafunction/codeium.vim',
 		event = 'BufEnter',
 	},
-	"OrangeT/vim-csharp",
-	"Hoffs/omnisharp-extended-lsp.nvim",
 	{ import = "plugins" }
 }, {})
 

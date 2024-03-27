@@ -15,6 +15,8 @@ return {
 	"hrsh7th/cmp-path",
 	"hrsh7th/cmp-cmdline",
 	"hrsh7th/nvim-cmp",
+	-- "OrangeT/vim-csharp",
+	"Hoffs/omnisharp-extended-lsp.nvim",
 	{
 		"neovim/nvim-lspconfig", -- Collection of configurations for built-in LSP client
 		config = function()
