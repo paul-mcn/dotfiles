@@ -1,0 +1,10 @@
+session_name: bb
+windows:
+  - focus: "true"
+    layout: bb82,144x34,0,0,5
+    options: {}
+    panes:
+      - focus: "true"
+        shell_command: zsh
+    start_directory: /mnt/e/Mark/bebrite
+    window_name: zsh

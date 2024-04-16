@@ -1,0 +1,19 @@
+session_name: omm
+windows:
+  - layout: 6152,144x34,0,0[144x17,0,0,1,144x16,0,18,2]
+    options: {}
+    panes:
+      - zsh
+      - focus: "true"
+        shell_command: zsh
+    start_directory: /home/paul/repos/feedme-platform/feedme-backend
+    window_name: zsh
+  - focus: "true"
+    layout: 4cdc,144x34,0,0{72x34,0,0,3,71x34,73,0,4}
+    options: {}
+    panes:
+      - zsh
+      - focus: "true"
+        shell_command: zsh
+    start_directory: /home/paul/repos/feedme-platform/feedme-frontend
+    window_name: zsh
