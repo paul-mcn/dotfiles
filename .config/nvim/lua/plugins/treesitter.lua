@@ -6,6 +6,7 @@ return {
 			ensure_installed = { "lua", "javascript", "typescript", "vimdoc" },
 			highlight = {
 				enable = true,
+				additional_vim_regex_highlighting = {"php"}
 			}
 		}
 	end
