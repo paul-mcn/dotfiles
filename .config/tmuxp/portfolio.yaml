@@ -1,0 +1,11 @@
+session_name: portfolio
+windows:
+  - layout: 6152,144x34,0,0[144x17,0,0,1,144x16,0,18,2]
+    options: {}
+    panes:
+      - shell_command:
+          - npm run dev
+      - shell_command:
+          - nvim
+    start_directory: /home/paul/repos/portfolio
+    window_name: zsh

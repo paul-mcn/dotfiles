@@ -1,0 +1,11 @@
+session_name: axon
+windows:
+- focus: 'true'
+  layout: 42ef,144x34,0,0{71x34,0,0,0,72x34,72,0,2}
+  options: {}
+  panes:
+  - focus: 'true'
+    shell_command: nvim
+  - zsh
+  start_directory: /home/paul/repos/Billing-System
+  window_name: nvim
