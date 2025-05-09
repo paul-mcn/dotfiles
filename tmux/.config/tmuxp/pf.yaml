@@ -1,0 +1,34 @@
+session_name: portfolio
+windows:
+  - layout: 37ff,193x51,0,0[193x37,0,0,0,193x13,0,38,3]
+    options: {}
+    panes:
+      - nvim
+      - focus: "true"
+    start_directory: /home/paul/repos/portfolio
+    window_name: zsh
+  # - focus: "true"    
+  #   layout: b801,193x51,0,0[193x37,0,0,1,193x13,0,38,4]
+  #   options: {}
+  #   panes:
+  #     - nvim
+  #     - focus: "true"
+  #       shell_command: make up
+  #   start_directory: /home/paul/repos/sharevill/sharevil-frontend
+  #   window_name: zsh
+  # - layout: 3804,193x51,0,0[193x37,0,0,2,193x13,0,38,5]
+  #   options: {}
+  #   panes:
+  #     - nvim
+  #     - focus: "true"
+  #       shell_command: clear
+  #   start_directory: /home/paul/repos/sharevill/sharevil-web-dist
+  #   window_name: zsh
+  # - layout: 3804,193x51,0,0[193x37,0,0,2,193x13,0,38,5]
+  #   options: {}
+  #   panes:
+  #     - focus: "true"
+  #       shell_command: make up
+  #     - ngrok http --url=formally-usable-piranha.ngrok-free.app 4000
+  #   start_directory: /home/paul/mock-db/dynamodb-local
+  #   window_name: zsh
